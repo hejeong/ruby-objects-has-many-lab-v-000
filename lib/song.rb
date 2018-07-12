@@ -18,7 +18,7 @@ class Song
     end
   end
   
-  # return list of all songs
+  # return list of all song instances
   def self.all
     @@all
   end
