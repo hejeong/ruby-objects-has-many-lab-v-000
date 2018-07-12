@@ -1,4 +1,5 @@
-
+# Author "has many" songs 
+# Song instance "belongs to" an artist
 class Author 
   attr_accessor :name, :posts
   
