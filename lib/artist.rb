@@ -1,3 +1,6 @@
+# Artist instance "has many" relationship with songs 
+# Songs "belongs to" Artist
+
 class Artist 
   attr_accessor :name, :songs
  
@@ -8,6 +11,6 @@ class Artist
   
   def add_song(song)
     @songs << song
-    song.self
+    song.artist = self
   end
 end
